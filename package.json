@@ -22,7 +22,9 @@
   },
   "devDependencies": {
     "angular": "^1.5.5",
+    "css-loader": "^0.23.1",
     "gulp": "^3.9.1",
+    "style-loader": "^0.13.1",
     "webpack-stream": "^3.2.0"
   }
 }
