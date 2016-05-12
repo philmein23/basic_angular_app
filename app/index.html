@@ -6,9 +6,9 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body data-ng-app="basicApp">
-  <h1>{{random}}</h1>
+  <h1>{{random.msg}}</h1>
 
-  <input type="text" data-ng-model="random" />
+  <input type="text" data-ng-model="random.msg" />
   <button data-ng-click="random = null">Clear message</button>
   <script src="./bundle.js"></script>
 </body>
